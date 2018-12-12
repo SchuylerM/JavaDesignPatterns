@@ -1,7 +1,9 @@
 public abstract class Duck {
-	protected FlyBehavior flyBehavior;
+  protected FlyBehavior flyBehavior;
 
-	public void performFly() {
-		this.flyBehavior.fly();
-	}
+
+
+  public void performFly() {
+    this.flyBehavior.fly();
+  }
 }
