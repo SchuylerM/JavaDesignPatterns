@@ -4,5 +4,6 @@ public class WeatherStation {
 
     CurrentConditionsDisplay ccd = new CurrentConditionsDisplay(wd);
     wd.setMeasurements(60, 65, 30.4f);
+    wd.setMeasurements(65, 75, 33.4f);
   }
 }
